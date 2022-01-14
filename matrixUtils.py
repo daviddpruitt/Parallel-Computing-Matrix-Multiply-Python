@@ -11,15 +11,6 @@ def genMatrix(size=1024, value=1):
 
     return matrix
 
-def genMatrix2(size=1024, value=1):
-    """
-    Generates a 2d square matrix of the specified size with the specified values
-    """
-
-    matrix = np.asarray([ np.asarray([value for col in range(0,size)]) for row in range(0,size)])
-
-    return matrix
-
 def printSubarray(matrix, size=10):
     """
     Prints the upper left subarray of dimensions size x size of
