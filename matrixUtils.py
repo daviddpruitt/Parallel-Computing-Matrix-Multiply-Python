@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-import numpy as np
 
 def genMatrix(size=1024, value=1):
     """
